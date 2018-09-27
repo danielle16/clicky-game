@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import cardsContainer from "./components/cardsContainer";
-import character from "./character.json"
+import React from 'react';
+import CardsContainer from "./components/CardsContainer";
 
-const App = () => <cardsContainer />;
+const App = () => <CardsContainer />;
 
 export default App;
